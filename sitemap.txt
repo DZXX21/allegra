@@ -1,0 +1,32 @@
+
+anasayfa/
+    bize-ulasin.html
+    hakkimizda.html
+    index.html
+    faaliyet-alanlarimiz.html
+
+    _assets/
+        css/
+            aos.css
+            swiper.css
+            style.css
+        img/
+            all-images
+        js/
+            query-3.4.1.min.js
+            main.js
+            parsley.min.js
+            swiper.min.js
+        medium/
+            all-images
+    en/
+        about.html
+        contact.html
+        index.html
+        services.html
+
+api.mapbox.com/
+    mapbox-gl-js/v1.7.0/
+        mapbox-gl.css
+        mapbox-gl.js
+
