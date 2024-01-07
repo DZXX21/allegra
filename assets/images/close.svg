@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>A025DE21-7725-4788-AC05-E02B657C7C42</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.0667321,12 L0.400392882,2.33366074 C-0.133464294,1.79980356 -0.133464294,0.934250058 0.400392882,0.400392882 C0.934250058,-0.133464294 1.79980356,-0.133464294 2.33366074,0.400392882 L12,10.0667321 L21.6663393,0.400392882 C22.2001964,-0.133464294 23.0657499,-0.133464294 23.5996071,0.400392882 C24.1334643,0.934250058 24.1334643,1.79980356 23.5996071,2.33366074 L13.9332679,12 L23.5996071,21.6663393 C24.1334643,22.2001964 24.1334643,23.0657499 23.5996071,23.5996071 C23.0657499,24.1334643 22.2001964,24.1334643 21.6663393,23.5996071 L12,13.9332679 L2.33366074,23.5996071 C1.79980356,24.1334643 0.934250058,24.1334643 0.400392882,23.5996071 C-0.133464294,23.0657499 -0.133464294,22.2001964 0.400392882,21.6663393 L10.0667321,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03---Materials" transform="translate(-976.000000, -972.000000)">
+            <g id="Icons" transform="translate(161.000000, 428.000000)">
+                <g id="Content" transform="translate(0.000000, 416.000000)">
+                    <g id="Icons-/-Content-/-Close" transform="translate(815.000000, 128.000000)">
+                        <g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Close" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

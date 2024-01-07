@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap">
     <link href="_assets/css/aos.css?v=BWvqCU7p0JZDg6seQfxmXBicqRaED_hOCYkyJPf4K5E" rel="stylesheet" />
     <link href="../api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="canonical" href="index.html" />
 
     <title>ALLEGRA - Anasayfa</title>
@@ -46,26 +46,26 @@
             <div class="menu-container">
                 <div class="menu-wrapper">
                     <a href="index.html" class="menu-logo"><img src="_assets/images/logo1.png" width="120" alt=""></a>
-                    
-
                     <div class="menu-bar-links">
-
                         <a href="hakkimizda.html" class="btn-2">Hakkımızda</a>
                         <a href="faaliyet-alanlarimiz.html" class="btn-2">Faaliyet Alanlarımız</a>
                         <a href="bize-ulasin.html" class="btn-2">Bize Ulaşın</a>
-                        <a href="insaat.html" class="btn-2">İnşaat</a>
-                        <a href="otomotiv.html" class="btn-2">Otomotiv</a>
-                        <a href="gıda.html" class="btn-2">Gıda</a> 
-                        <a href="isgelistirme.html" class="btn-2">İş Geliştirme</a> 
-                        <a href="lojistik.html" class="btn-2">Lojistik</a> 
+                        <div class="dropdown">
+                            <a href="#" class="btn-2">Hizmetlerimiz</a>
+                            <div class="dropdown-content">
+                                <a href="insaat.html" class="btn-2">İnşaat</a>
+                                <a href="otomotiv.html" class="btn-2">Otomotiv</a>
+                                <a href="gida.html" class="btn-2">Gıda</a>
+                                <a href="isgelistirme.html" class="btn-2">İş Geliştirme</a>
+                                <a href="lojistik.html" class="btn-2">Lojistik</a>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="menu-right-search-area">
                         <div class="menu-item-center">
-                            <a href="" target="_blank"><img
-                                    src="_assets/images/linkedin.png" height="16" alt=""></a>
-                            <a href="" target="_blank"><img
-                                    src="_assets/images/instagram.png" height="16" alt=""
+                            <a href="" target="_blank"><img src="_assets/images/linkedin.png" height="16" alt=""></a>
+                            <a href="" target="_blank"><img src="_assets/images/instagram.png" height="16" alt=""
                                     style="padding-right:10px;"></a>
                         </div>
                     </div>
@@ -82,14 +82,12 @@
                         <div class="langSelectorBody">
                             <ul class="langSelectorList">
                                 <li class="langSelectorListItem">
-
                                     <a href="" class="langSelectorListName">
                                         <span class="langSelectorListNameFlag">
                                             <img src="_assets/images/en-flag.png" alt="Flag of United Kingdom" />
                                         </span>
                                         <abbr class="langSelectorListNameLabel" title="en-US">EN</abbr>
                                     </a>
-
                                 </li>
                             </ul>
                         </div>
@@ -100,8 +98,6 @@
                         <img src="_assets/images/menu-icon.png" width="24px" alt="">
                     </div>
                     <a class="menu-logo" href="index.html"><img src="_assets/images/logo1.png" width="120" alt=""></a>
-
-
                     <div class="langSelector">
                         <div class="langSelectorHeader">
                             <b class="langSelectorTitle">
@@ -115,14 +111,12 @@
                         <div class="langSelectorBody">
                             <ul class="langSelectorList">
                                 <li class="langSelectorListItem">
-
                                     <a href="" class="langSelectorListName">
                                         <span class="langSelectorListNameFlag">
                                             <img src="_assets/images/en-flag.png" alt="Flag of United Kingdom" />
                                         </span>
                                         <abbr class="langSelectorListNameLabel" title="en-US">EN</abbr>
                                     </a>
-
                                 </li>
                             </ul>
                         </div>
@@ -133,7 +127,16 @@
                         <li><a href="hakkimizda.html" class="btn-2">Hakkımızda</a></li>
                         <li><a href="faaliyet-alanlarimiz.html" class="btn-2">Faaliyet Alanlarımız</a></li>
                         <li><a href="bize-ulasin.html" class="btn-2">Bize Ulaşın</a></li>
-                        
+                        <div class="dropdown">
+                            <li><a href="#" class="btn-2">Hizmetlerimiz</a></li>
+                            <div class="dropdown-content">
+                                <a href="insaat.html" class="btn-2">İnşaat</a>
+                                <a href="otomotiv.html" class="btn-2">Otomotiv</a>
+                                <a href="gida.html" class="btn-2">Gıda</a>
+                                <a href="isgelistirme.html" class="btn-2">İş Geliştirme</a>
+                                <a href="lojistik.html" class="btn-2">Lojistik</a>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -149,10 +152,10 @@
                             <div class="swiper-slide"
                                 style="background-image: url(_assets/medium/Banner/Image/container-4197259.jpg);"></div>
                             <div class="swiper-slide"
-                                style="background-image: url(_assets/medium/Banner/Image/bazaar-ga64e2604f_1920.jpg);"></div>
+                                style="background-image: url(_assets/medium/Banner/Image/bazaar-ga64e2604f_1920.jpg);">
+                            </div>
                             <div class="swiper-slide"
                                 style="background-image: url(_assets/medium/Banner/Image/load-4461067.jpg);"></div>
-
                         </div>
                     </div>
                 </div>
@@ -180,11 +183,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-wrapper">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
@@ -265,26 +263,18 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
             <div class="footer-contact-area-container">
                 <div class="footer-contact-area-wrapper">
                     <div class="footer-contact-area-item">
                         <div class="footer-bize-ulasin-area">
                             <h4>Bize Ulaşın</h4>
-                            <p>Zekeriyaköy Mah. Balaban Sok. No:3 Sarıyer İstanbu</p>
+                            <p>Zekeriyaköy Mah. Balaban Sok. No:3 Sarıyer İstanbul</p>
                             <div class="contact-info-wrapper">
                                 <div class="phone-info-container">
                                     <img src="_assets/images/phone.png" alt="">
                                     <a href="#">+02122025111</a>
                                 </div>
-
                                 <div class="phone-info-container">
-
-
                                     <div class="contact-form-arrow-wrapper">
                                         <i class="icono-arrow1-left"></i>
                                     </div>
@@ -297,11 +287,11 @@
                     <div class="footer-contact-area-item-e-bulten">
                         <h4>E-Bülten</h4>
                         <h5>Allegra’dan haberdar olun</h5>
-                        <p>E- posta adresinizi girerek e-bültenimize abone olun, Allegra Dış Ticaret ve diğer tüm haberler
+                        <p>E- posta adresinizi girerek e-bültenimize abone olun, Allegra Dış Ticaret ve diğer tüm
+                            haberler
                             için takipte kalın. </p>
                         <div class="input-container">
-                            <form method="post" data-parsley-validate="true"
-                                action="">
+                            <form method="post" data-parsley-validate="true" action="">
                                 <input type="hidden" name="Path" value="/" />
                                 <div class="input-wrapper">
                                     <input type="email" placeholder="E-posta adresi girin..." required="required"
@@ -316,26 +306,26 @@
                                     <label for="a_da62bf2b-ad44-4328-a4ad-b65c91ac137f">E-bülten gönderilmesini
                                         onaylıyorum</label>
                                 </div>
-                                <input name="__RequestVerificationToken" type="hidden"
-                                    value="CfDJ8PvjLRufZ91PoOkimG4yVKEoTUsKUH7wYV_8W0Kfl_TNw9sYsoibHpfakHaYU7KtYh_iw-bgxv3BKgozf_Y-3DsqYnZSa7HQjRn5ZPWpyrhbOacVijUrr_rNdXGRaTQo7Q0RrpFEfil0uq5tRbVO-Ms" />
                             </form>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="footer-link-area-container">
                 <div class="footer-link-area-wrapper">
                     <div class="footer-links-items">
-                        <a href="">Hakkımızda</a>
-                        <a href="">Öykümüz</a>
-                        <a href="">Tarihçemiz</a>
-                        <a href="">Hedeflerimiz</a>
+                        <a href="hakkimizda.html">Hakkımızda</a>
+                        <a href="faaliyet-alanlarimiz.html">Faaliyet Alanlarımız</a>
+                        <a href="bize-ulasin.html">Bize Ulaşın</a>
                     </div>
                     <div class="footer-links-items">
+                        <a href="insaat.html">İnşaat</a>
+                        <a href="otomotiv.html">Otomotiv</a>
+                        <a href="gida.html">Gıda</a>
+                        <a href="isgelistirme.html">İş Geliştirme</a>
+                        <a href="lojistik.html">Lojistik</a>
                     </div>
-                    <div class="footer-links-items">
-                    </div>
+                    <div class="footer-links-items"></div>
                 </div>
             </div>
             <div class="footer-container">
@@ -344,10 +334,8 @@
                         <p></p>
                     </div>
                     <div class="footer-item-center">
-                        <a href="" target="_blank"><img
-                                src="_assets/images/linkedin.png" height="16" alt=""></a>
-                        <a href="" target="_blank"><img
-                                src="_assets/images/instagram.png" height="16" alt=""></a>
+                        <a href="" target="_blank"><img src="_assets/images/linkedin.png" height="16" alt=""></a>
+                        <a href="" target="_blank"><img src="_assets/images/instagram.png" height="16" alt=""></a>
                     </div>
                     <div class="footer-item-end">
                         <p>ALLEGRA Ticaret A.Ş. © 2019</p>
@@ -401,21 +389,25 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         AOS.init({
             once: true
         });
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.15.0/mapbox-gl.js" integrity="sha512-GPA+Da72PFFDoGphWw8KnqAFq/v/qsizJqomP82+tVCLgWlSgc5atMllkFaSAJF931RUCCl0ZDJF5J3yqsQVCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.15.0/mapbox-gl.js"
+        integrity="sha512-GPA+Da72PFFDoGphWw8KnqAFq/v/qsizJqomP82+tVCLgWlSgc5atMllkFaSAJF931RUCCl0ZDJF5J3yqsQVCg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="_assets/js/jquery-3.4.1.min.js?v=u6Tt5JvhAn0FLlsv461B5-xlNPLp9WqNVJqLkADq004"></script>
     <script src="_assets/js/main.js?v=X93kExafD7lI1SN-Bq_iysPgSR6Qt5Wt34vcYAWlqDA"></script>
     <script src="https://cdn.jsdelivr.net/npm/parsleyjs@2.9.2/dist/parsley.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.1.0/swiper-bundle.min.js" integrity="sha512-4Ooh3fl4STrmn95ZbS/J6l8csp/FvSKPaeDAH/IaPQGJIx9lmpuxXZTCYKR2W5+Bt7i74exPvAT2PsWnac+sow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.1.0/swiper-bundle.min.js"
+        integrity="sha512-4Ooh3fl4STrmn95ZbS/J6l8csp/FvSKPaeDAH/IaPQGJIx9lmpuxXZTCYKR2W5+Bt7i74exPvAT2PsWnac+sow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -445,8 +437,42 @@
 
         gtag('config', 'G-8NH38Z4WSZ');
     </script>
+    <script>
+        //mobile dropdown menu
+        function toggleMobileMenu() {
+            var mobileMenu = document.getElementById("mobileMenu");
+            if (mobileMenu.style.display === "block") {
+                mobileMenu.style.display = "none";
+            } else {
+                mobileMenu.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        // Initialize main slider
+        var mainSlider = new Swiper('.main-slider-container', {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
 
-</script>
+        var contentSlider = new Swiper('.left-down-swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+            },
+        });
+    </script>
 
 </body>
+
 </html>
