@@ -44,6 +44,21 @@
             right: 20px;
             z-index: 999;
         }
+        .indirilmis {
+    position: relative;
+    top: 4em; /* Yüksekliği artırarak daha fazla aşağı kaydırabilirsiniz */
+    left: -8.8em; /* Sola kaydırmak için negatif bir değer kullanabilirsiniz */
+}
+.indirilmis img {
+    width: 20%; /* Yüzde cinsinden genişlik ayarı */
+    height: auto; /* Otomatik yükseklik ayarı, oranları korur */
+}
+.telefon {
+    font-size: 10px; /* Metin boyutunu küçültmek için px cinsinden bir değer belirleyin */
+    display: inline; /* Metni tek bir satırda görüntülemek için inline kullanın */
+}
+
+
     </style>
 
 </head>
@@ -118,7 +133,7 @@
                                 <abbr class="langSelectorListNameLabel" title="tr-TR">TR</abbr>
                                 <i class="fa fa-caret-down" aria-hidden="true"></i>
                             </b>
-                        </div>
+                            </div>
                         <div class="langSelectorBody">
                             <ul class="langSelectorList">
                                 <li class="langSelectorListItem">
@@ -136,7 +151,7 @@
                 <div class="mobile-menu-links-wrapper">
                     <ul>
                         <li><a href="hakkimizda.html" class="btn-2">Hakkımızda</a></li>
-                        <li><a href="faaliyet-alanlarimiz.html" class="btn-2">Faaliyet Alanlarımız</a></li>
+                        <li><a href="faaliyet-alanlarimiz.html" class="btn-2">Şirket Faaliyetleri</a></li>
                         <li><a href="bize-ulasin.html" class="btn-2">Bize Ulaşın</a></li>
                         <div class="dropdown">
                             <li><a href="#" class="btn-2">Hizmetlerimiz</a></li>
@@ -150,7 +165,7 @@
                                 <a href="lojistik.html" class="btn-2">Lojistik</a>
                                 <a href="otomotiv.html" class="btn-2">Otomotiv</a>
                                 <a href="insaat.html" class="btn-2">İnşaat</a>
-       
+                                
                             </div>
                         </div>
                     </ul>
@@ -290,6 +305,13 @@
                                     <img src="../assets/images/phone.png" alt="">
                                     <a>+90 (212) 202 5111</a>
                                 </div>
+
+                                <div class="indirilmis">
+                                    <img src="../assets/images/flag-united-kingdom_1f1ec-1f1e7.png" alt="">
+                                    <a class="telefon" href="tel:++905334578431">+90 (533) 457 8431</a>
+
+                                </div>
+                                
                                 <div class="phone-info-container">
                                     <img src="../assets/images/mail.png" alt="">
                                     <a href="mailto:info@allegradisticaret.com">info@allegradisticaret.com</a>
@@ -452,17 +474,18 @@
 
         gtag('config', 'G-8NH38Z4WSZ');
     </script>
-    <script>
-        //mobile dropdown menu
-        function toggleMobileMenu() {
-            var mobileMenu = document.getElementById("mobileMenu");
-            if (mobileMenu.style.display === "block") {
-                mobileMenu.style.display = "none";
-            } else {
-                mobileMenu.style.display = "block";
-            }
+   <script>
+    // Mobil açılır menüyü açma ve kapama işlevi
+    function toggleMobileMenu() {
+        var mobileMenu = document.getElementById("mobileMenu");
+        if (mobileMenu.style.display === "block" || mobileMenu.style.display === "") {
+            mobileMenu.style.display = "none";
+        } else {
+            mobileMenu.style.display = "block";
         }
-    </script>
+    }
+</script>
+
     <script>
         // Initialize main slider
         var mainSlider = new Swiper('.main-slider-container', {

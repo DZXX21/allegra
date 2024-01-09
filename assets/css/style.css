@@ -156,6 +156,13 @@ input::placeholder {
 .slider-content-area-container {
     width: 70%;
 }
+/* İngiliz bayrağı ikonunun stili */
+.bayrak-icon {
+    font-size: 24px; /* İkon boyutunu ayarlayabilirsiniz */
+    margin-right: 5px; /* İkon ile metin arasındaki boşluğu ayarlayabilirsiniz */
+    vertical-align: middle; /* Metin ile aynı hizada olmasını sağlar */
+}
+
 
 .slider-content-wrapper p {
     font-size: 12px;
